@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ranit Karmakar — Computer Science and Engineering portfolio." />
+  <title>Ranit Karmakar — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="cursor-ring" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="progress-line" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Ranit Karmakar home">
+      <span class="brand-mark">R</span>
+      <span class="brand-name">RANIT<br>KARMAKAR</span>
+    </a>
+
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a class="header-cta magnetic" href="#contact">Contact Me <span>↗</span></a>
+    <button class="menu-toggle" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-grid"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> COMPUTER SCIENCE & ENGINEERING</p>
+        <h1>Code with<br><em>purpose.</em><br>Build with curiosity.</h1>
+        <p class="hero-text">
+          Bachelor of Technology student in Computer Science and Engineering,
+          working across programming, web development, databases and modern tools.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-btn magnetic" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="text-btn" href="#about">Discover more <span>↓</span></a>
+        </div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="orbit orbit-a"></div>
+        <div class="orbit orbit-b"></div>
+        <div class="code-card card-one">
+          <span class="tiny">LANGUAGE</span>
+          <strong>Python</strong>
+          <code>print("hello, world")</code>
+        </div>
+        <div class="code-card card-two">
+          <span class="tiny">STACK</span>
+          <strong>React · Node</strong>
+          <code>const build = () =&gt; {}</code>
+        </div>
+        <div class="monogram">RK</div>
+        <div class="floating-pill pill-a">C / C++</div>
+        <div class="floating-pill pill-b">JavaScript</div>
+        <div class="floating-pill pill-c">MongoDB</div>
+      </div>
+
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section id="about" class="section panel-section">
+      <div class="section-tabs">
+        <a class="active" href="#about">About Me</a>
+        <a href="#skills">Skillset</a>
+        <a href="#certificates">Certification</a>
+      </div>
+
+      <div class="about-layout">
+        <div class="about-visual reveal">
+          <div class="visual-frame">
+            <div class="visual-top"><span>RANIT / 01</span><span>CSE</span></div>
+            <div class="about-portrait"><img src="assets/ranit-karmakar.png" alt="Ranit Karmakar"></div>
+            <div class="visual-bottom">B.TECH<br>2025 — PRESENT</div>
+          </div>
+        </div>
+
+        <div class="about-copy reveal">
+          <p class="eyebrow">01 — ABOUT</p>
+          <h2>The mind<br>behind the <em>code.</em></h2>
+          <p>
+            I am pursuing a Bachelor of Technology in Computer Science and Engineering
+            at Lovely Professional University. My CV reflects hands-on work in web
+            development, programming, databases and embedded systems through personal
+            and academic projects.
+          </p>
+
+          <div class="info-grid">
+            <div><span>Education</span><strong>B.Tech — CSE</strong></div>
+            <div><span>University</span><strong>Lovely Professional University</strong></div>
+            <div><span>CGPA</span><strong>6.33</strong></div>
+            <div><span>Achievement</span><strong>100+ problems solved</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section skills-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">02 — SKILLSET</p>
+          <h2>Tools I <em>work with.</em></h2>
+        </div>
+        <p class="heading-note">A visual map of the languages, technologies, databases and tools listed in my CV.</p>
+      </div>
+
+      <div class="skills-layout">
+        <div class="skill-groups reveal">
+          <article class="skill-group">
+            <span class="group-number">01</span>
+            <div><h3>Languages</h3><p>C · C++ · Java · Python · JavaScript</p></div>
+          </article>
+          <article class="skill-group">
+            <span class="group-number">02</span>
+            <div><h3>Technologies</h3><p>HTML · CSS · React.js · Node.js · Express.js · Tailwind CSS</p></div>
+          </article>
+          <article class="skill-group">
+            <span class="group-number">03</span>
+            <div><h3>Databases / Tools</h3><p>MySQL · MongoDB · Git · GitHub · Figma</p></div>
+          </article>
+          <article class="skill-group">
+            <span class="group-number">04</span>
+            <div><h3>Soft Skills</h3><p>Problem Solving · Team Collaboration · Communication · Time Management · Adaptability</p></div>
+          </article>
+        </div>
+
+        <div class="skill-orbit reveal" id="skill-sphere">
+          <canvas id="skill-canvas"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">03 — PROJECTS</p>
+          <h2>Selected <em>work.</em></h2>
+        </div>
+        <p class="heading-note">Projects presented exactly from the current CV, without adding outside claims.</p>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card reveal">
+          <div class="project-index">01</div>
+          <div class="project-visual"><img src="assets/ecommerce.svg" alt="E-Commerce project reference"><span>ECOMMERCE</span><b>01</b></div>
+          <div class="project-content">
+            <p class="project-type">FULL STACK · IN PROGRESS</p>
+            <h3>E-Commerce<br>Website</h3>
+            <p>Full-stack platform with responsive product browsing, shopping cart functionality, secure authentication, REST APIs and a database layer for products, users and orders.</p>
+            <div class="stack">React.js · Node.js · Express.js · MongoDB · Tailwind CSS</div>
+            <div class="project-status">
+              <span class="status-pulse"></span>
+              Currently in Development
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reverse reveal">
+          <div class="project-index">02</div>
+          <div class="project-visual"><img src="assets/todo.svg" alt="To-Do List project reference"><span>TASK MANAGER</span><b>02</b></div>
+          <div class="project-content">
+            <p class="project-type">WEB APPLICATION · GITHUB</p>
+            <h3>To-Do List<br>Web Application</h3>
+            <p>Task-management application supporting add, edit, delete and completion actions, with a responsive interface for desktop and mobile devices.</p>
+            <div class="stack">HTML · CSS · JavaScript</div>
+            <div class="project-links">
+              <a class="project-link" href="https://github.com/Ranit8641/To-Do-List" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+                Source Code <span>↗</span>
+              </a>
+              <a class="project-link" href="https://ranit8641.github.io/To-Do-List/" target="_blank" rel="noopener">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                Live Site <span>↗</span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-index">03</div>
+          <div class="project-visual"><img src="assets/air-quality.svg" alt="Air Quality project reference"><span>AIR QUALITY</span><b>03</b></div>
+          <div class="project-content">
+            <p class="project-type">EMBEDDED SYSTEMS</p>
+            <h3>Air Quality Index<br>Monitoring System</h3>
+            <p>Arduino Uno-based system for real-time environmental air-quality monitoring using gas and dust sensors, with sensor data collection and live readings.</p>
+            <div class="stack">Arduino Uno · C/C++ · Air Quality Sensor · Embedded Systems</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certificates" class="section certificates-section">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">04 — CERTIFICATION</p>
+          <h2>Learning, <em>documented.</em></h2>
+        </div>
+      </div>
+
+      <div class="certificate-list reveal">
+        <article class="certificate-row certificate-card"><span>01</span><div class="certificate-copy"><strong>Programming Fundamentals using Python – Part 1</strong><small>Infosys Springboard · Aug 14, 2026</small></div><a class="certificate-image" href="assets/certificate-python-part-1.png" target="_blank" rel="noopener"><img src="assets/certificate-python-part-1.png" alt="Programming Fundamentals using Python Part 1 certificate"><b>VIEW ↗</b></a></article>
+        <article class="certificate-row certificate-card"><span>02</span><div class="certificate-copy"><strong>Programming Fundamentals using Python – Part 2</strong><small>Infosys Springboard · Aug 14, 2026</small></div><a class="certificate-image" href="assets/certificate-python-part-2.png" target="_blank" rel="noopener"><img src="assets/certificate-python-part-2.png" alt="Programming Fundamentals using Python Part 2 certificate"><b>VIEW ↗</b></a></article>
+        <article class="certificate-row certificate-card"><span>03</span><div class="certificate-copy"><strong>Introduction to Cloud Computing</strong><small>Infosys Springboard / Digital Academy · Mar 5, 2026</small></div><a class="certificate-image" href="assets/certificate-cloud-computing.png" target="_blank" rel="noopener"><img src="assets/certificate-cloud-computing.png" alt="Introduction to Cloud Computing certificate"><b>VIEW ↗</b></a></article>
+        <article class="certificate-row certificate-card"><span>04</span><div class="certificate-copy"><strong>CS105: Introduction to Python</strong><small>Saylor Academy · Feb 7, 2026</small></div><a class="certificate-image" href="assets/certificate-python-saylor.png" target="_blank" rel="noopener"><img src="assets/certificate-python-saylor.png" alt="Saylor Academy CS105 Introduction to Python certificate"><b>VIEW ↗</b></a></article>
+        <article class="certificate-row certificate-card"><span>05</span><div class="certificate-copy"><strong>Effective Time Management</strong><small>Tech Veda · Oct 29, 2025</small></div><a class="certificate-image" href="assets/certificate-time-management.png" target="_blank" rel="noopener"><img src="assets/certificate-time-management.png" alt="Tech Veda Effective Time Management certificate"><b>VIEW ↗</b></a></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-top reveal">
+        <p class="eyebrow">05 — CONTACT</p>
+        <h2>Let's connect<br>and <em>build.</em></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p>For direct outreach, use the contact details below.</p>
+          <a class="email-link" href="mailto:ranitkarmakar18@gmail.com">ranitkarmakar18@gmail.com <span>↗</span></a>
+          <div class="contact-meta">
+            <div><span>Phone</span><strong>+91-8641077253</strong></div>
+            <div><span>Location from education</span><strong>Phagwara, Punjab</strong></div>
+          </div>
+          <div class="socials">
+            <a href="https://www.linkedin.com/in/ranit-karmakar-323b2b380/" target="_blank" rel="noopener">LinkedIn ↗</a>
+            <a href="https://github.com/" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" onsubmit="return handleForm(event)">
+          <label>Full name<input required type="text" name="name" placeholder="Your name"></label>
+          <label>Email address<input required type="email" name="email" placeholder="you@example.com"></label>
+          <label>Message<textarea required name="message" rows="5" placeholder="Write your message..."></textarea></label>
+          <button class="primary-btn magnetic" type="submit">Send Message <span>↗</span></button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Ranit Karmakar</span>
+    <span>Computer Science & Engineering</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

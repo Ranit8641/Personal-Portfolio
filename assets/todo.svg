@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<rect width="900" height="600" fill="#092f2c"/><rect x="120" y="65" width="660" height="470" rx="24" fill="#edf5f2"/>
+<text x="170" y="125" font-family="Georgia" font-size="35" fill="#123b36">My Tasks</text>
+<rect x="170" y="155" width="420" height="50" rx="10" fill="#d8e8e4"/><text x="190" y="187" font-family="Arial" font-size="16" fill="#6a8883">Add a new task...</text><rect x="610" y="155" width="110" height="50" rx="10" fill="#0d7168"/><text x="665" y="187" text-anchor="middle" font-family="Arial" font-size="16" fill="white">Add</text>
+<g font-family="Arial" font-size="18" fill="#244541"><rect x="170" y="240" width="550" height="58" rx="10" fill="white"/><rect x="190" y="258" width="20" height="20" rx="4" fill="#0d7168"/><text x="230" y="276">Complete project report</text>
+<rect x="170" y="315" width="550" height="58" rx="10" fill="white"/><rect x="190" y="333" width="20" height="20" rx="4" fill="none" stroke="#8aa7a2" stroke-width="2"/><text x="230" y="351">Study Data Structures</text>
+<rect x="170" y="390" width="550" height="58" rx="10" fill="white"/><rect x="190" y="408" width="20" height="20" rx="4" fill="none" stroke="#8aa7a2" stroke-width="2"/><text x="230" y="426">Read system design basics</text></g>
+<text x="450" y="500" text-anchor="middle" font-family="Arial" font-size="13" fill="#72918c">RESPONSIVE TASK MANAGEMENT WEB APP</text></svg>

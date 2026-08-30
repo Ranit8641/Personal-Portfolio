@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+<defs><radialGradient id="g"><stop stop-color="#0a7168"/><stop offset="1" stop-color="#032b29"/></radialGradient></defs>
+<rect width="900" height="600" fill="url(#g)"/><g stroke="#80d8cd" fill="none" opacity=".35"><circle cx="450" cy="300" r="210"/><circle cx="450" cy="300" r="155"/><circle cx="450" cy="300" r="100"/></g>
+<rect x="250" y="205" width="400" height="190" rx="22" fill="#102f2d" stroke="#a7e8df" stroke-width="3"/>
+<rect x="300" y="250" width="300" height="95" rx="10" fill="#c8e46c"/><text x="450" y="288" text-anchor="middle" font-family="monospace" font-size="24" fill="#163b30">AQI: 48</text><text x="450" y="320" text-anchor="middle" font-family="monospace" font-size="18" fill="#163b30">GOOD</text>
+<rect x="130" y="265" width="80" height="30" rx="8" fill="#164a45"/><rect x="690" y="265" width="80" height="30" rx="8" fill="#164a45"/>
+<path d="M210 280h40M650 280h40M450 205v-65M450 395v65" stroke="#a7e8df" stroke-width="5"/>
+<text x="450" y="100" text-anchor="middle" font-family="Arial" font-size="24" fill="#dff7f3">ARDUINO AIR QUALITY MONITOR</text></svg>
